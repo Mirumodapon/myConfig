@@ -16,11 +16,12 @@ Plug 'preservim/nerdtree'
 call plug#end()
 
 set nu
-set ai
-set tabstop=4
-set shiftwidth=4
 set cursorline
+set ruler
+set tabstop=4
 set showcmd
+set ai
+set shiftwidth=2
 set hlsearch
 set backspace=2
 syntax on
