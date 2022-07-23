@@ -15,13 +15,19 @@ Plug 'preservim/nerdtree'
 
 call plug#end()
 
+filetype indent on
+syntax on
 set nu
 set cursorline
-set ruler
+set shiftwidth=4
 set tabstop=4
-set showcmd
 set ai
-set shiftwidth=2
+set showcmd
+set showmode
+set ruler
+set expandtab
+set nowrap
+set wildmenu
+set wildignore=*.exe,*.jpg,*.jpeg,*.png,*.gif,*.exe,*.docx,*.xlsx,*.pdf
 set hlsearch
-set backspace=2
-syntax on
+
