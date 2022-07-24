@@ -12,8 +12,15 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'msanders/snipmate.vim'
 Plug 'preservim/nerdtree'
+Plug 'prettier/vim-prettier'
 
 call plug#end()
+
+"
+
+cnoreabbrev tree NERDTree
+
+"
 
 filetype indent on
 syntax on
